@@ -1,0 +1,148 @@
+body {
+    background-color: #020403;
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+.nav__li {
+    display: inline-block;
+    padding: 1.563rem;
+}
+
+.nav__li a {
+    text-decoration: none;
+    color: #adadad;
+}
+
+
+/* 
+***************************************************** */
+
+
+.container01 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    
+}
+
+.container01__img {
+margin: auto;
+height: 11.875rem;
+width: 10rem;
+}
+
+.container01__text {
+    margin: 0 auto;
+
+}
+
+.text_h3 {
+margin: 30px auto 0px;
+font-size: 1.563rem;
+color: #adadad;
+text-align: center;
+}
+
+.text_h1 {
+font-size: 2.5rem;
+text-align: center;
+margin: 0px auto 10px;
+width: 20rem;
+height: 9.375rem;
+}
+
+ .container__redes {
+     text-align: center;
+     margin-bottom: 6.25rem;
+     
+ }
+
+ .redes__img {
+     margin: 0px 5px;
+ }
+
+ /* ******************************************************** */
+
+ .acerca__de__mi {
+     text-align: center;
+     height: 12.5rem;
+     margin: auto;
+ }
+
+ .acerca__de__mi h2 {
+     font-size: 1.7rem;
+ }
+
+ .acerca__de__mi p {
+     color: #adadad;
+     margin: 1.25rem 0.625rem 1.875rem 0.625rem;
+ }
+
+ /* ****************************************************** */
+
+ .mis__habilidades {
+     margin: 1.875rem auto;
+     display: flex;
+     flex-wrap: wrap;
+     height: 23.125rem;
+     text-align: center;
+     color: #ffffff;
+     font-weight: bold;
+ }
+
+ .col__12 {
+     width: 100%;
+ }
+ 
+ .col__6 {
+     width: 50%;
+ }
+
+
+ .habilidades__img {
+     text-align: center;
+     display: block;
+     position: relative;
+
+ }
+
+ .habilidades__img img {
+     height: 3.6rem;
+     width: 3.6rem;
+     position: relative;
+     top: 1rem;
+ }
+  .backgroud__img {
+    height: 5.5rem;
+    width: 5.5rem;
+    background-color:#1C1616;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    bottom: .5rem;
+    
+}
+ 
+ .mis__habilidades span {
+     display: block;
+ }
+
+/* 
+ **************************************************************** */
+
+.content__exp {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col__60 {
+    width: 60%;
+    background-color: aqua;
+}
+
+.col__40 {
+    width: 40%;
+    background-color: red;
+}
