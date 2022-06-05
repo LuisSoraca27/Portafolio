@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaQuerys.css">
+    <link rel="stylesheet" href="css/layout.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"> 
-    <title>Document</title>
+    <title>Portafolio</title>
 </head>
 <body>
-    <nav class="barra-nav">
-       <ul class="nav__ul">
+    <nav>
+        <button onclick="briefcaseMenu()">
+            <img src="imagenes/menu 1.svg">
+        </button>
+       <ul id="nav" class="nav__ul hidden">
           <li class="nav__li"><a href="#">Home</a></li>
           <li class="nav__li"><a href="">Acerca de mi</a></li>
           <li class="nav__li"><a href="#">Mis habilidades</a></li>
@@ -24,82 +29,142 @@
 
 <section>
     <div class="container01">
-      <img class="container01__img" src="css/imagenes/Rectangle 45.png" alt="">
-      <h3 class="container01__text text_h3"> Hola, soy Dan</h3>
+      <img class="container01__img" src="imagenes/Rectangle 45.png" alt="">
+      <h3 class="container01__text text_h3"> Hola, soy Luis</h3>
       <h1 class="container01__text text_h1">Diseñador y desarrollador web</h1>
+      <img src="imagenes/Group 99.svg" class="vector__img">
+      <img src="imagenes/Group 98.svg" class="vector__img2">
     </div>
     
     <div class="container__redes">
-        <img src="css/imagenes/cib_linkedin-in.svg" alt="" class="redes__img">
-        <img src="css/imagenes/ant-design_instagram-filled.svg" alt="" class="redes__img">
-        <img src="css/imagenes/ant-design_twitter-outlined.svg" alt="" class="redes__img">
+        <img src="imagenes/cib_linkedin-in.svg" alt="" class="redes__img">
+        <img src="imagenes/ant-design_instagram-filled.svg" alt="" class="redes__img">
+        <img src="imagenes/ant-design_twitter-outlined.svg" alt="" class="redes__img">
   
     </div>
-    
+     
+
     <div class="acerca__de__mi ">
         <h2>Acerca de mi</h2>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, consequatur quasi. Labore excepturi error nesciunt reprehenderit rerum neque eveniet alias asperiores, deleniti nobis saepe? Doloribus maxime nulla nisi dignissimos. Sequi.
+        <p class="">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, consequatur quasi. Labore excepturi error nesciunt reprehenderit rerum neque eveniet alias asperiores, deleniti nobis saepe? Doloribus maxime nulla nisi dignissimos. Sequi onsectetur adipisicing elit. Eaque, consequatur quasi. Labore .
         </p>
+ 
     </div>
 
     <div class="mis__habilidades">
-        <div class="col__12 habilidades__h2">
+        <img src="imagenes/Group 97.svg" class="vector__img3">
+        <div class="col-12 habilidades__h2">
             <h2>Mis habilidades</h2>
         </div>
-        <div class="col__6 habilidades__img">
-            <div class="backgroud__img">
-                <img src="css/imagenes/ant-design_mobile-filled.svg">
+        <div class="col-6 habilidades__img">
+            <div class="backgroud__img left">
+                <img src="imagenes/ant-design_mobile-filled.svg">
             </div>
-            <span>Mobile app Design</span>
+            <span class="left">Mobile app Design</span>
         </div>
-        <div class="col__6 habilidades__img">
-            <div class="backgroud__img">
-                 <img src="css/imagenes/mdi_motion.svg"> 
+        <div class="col-6 habilidades__img">
+            <div class="backgroud__img right">
+                 <img src="imagenes/mdi_motion.svg"> 
             </div>
-            <span>Motion Design</span>
+            <span class="right">Motion Design</span>
         </div>
-        <div class="col__6 habilidades__img">
-            <div class="backgroud__img">
-                <img src="css/imagenes/mdi_material-design.svg">
+        <div class="col-6 habilidades__img">
+            <div class="backgroud__img left">
+                <img src="imagenes/mdi_material-design.svg">
             </div>
-            <span>Creacíon de sistemas de diseño</span>
+            <span class="left">Creacíon de sistemas de diseño</span>
         </div>
-        <div class="col__6 habilidades__img">
-             <div class="backgroud__img">
-                <img src="css/imagenes/ic_outline-web-asset.svg">
+        <div class="col-6 habilidades__img">
+             <div class="backgroud__img right">
+                <img src="imagenes/ic_outline-web-asset.svg">
              </div>
-            <span>Desarrollo web</span> 
+            <span class="right">Desarrollo web</span> 
         </div>
     </div>
 
 
     <div class="content__exp">
-        <div class="col__12">
-
+        <div class="col-12 exp__tittle">
+            <h2>Experiencia</h2>
         </div>
-        <div class="col__60">
-
+        <div class="col__40 exp__cell">
+            <p>2016-2018</p>
         </div>
-        <div class="col__40">
-
+        <div class="col__60 exp__cell">
+            <p class="exp__p">Visual desiner</p>
+            <p class="exp__p2">Wizeline</p>
         </div>
-        <div class="col__60">
-
+        <div class="col__40 exp__cell">
+            <p>2018-2019</p>
         </div>
-        <div class="col__40">
-
+        <div class="col__60 exp__cell">
+            <p class="exp__p">Product desiner</p>
+            <p class="exp__p2">Microsoft</p>
         </div>
-        <div class="col__60">
- 
+        <div class="col__40 exp__cell">
+            <p>2019-2021</p>
         </div>
-        <div class="col__40">
-
+        <div class="col__60 exp__cell">
+            <p class="exp__p">UI Engineer</p>
+            <p class="exp__p2">Google</p>
+            <div class="img__4">
+                <img src="imagenes/Group 97.svg" class="vector__img4">
+            </div>
         </div>
-        
-
     </div>
 
+    <div class="content__folio">
+        <div class="col__12">
+            <h2>Portafolio</h2>
+        </div>
+      <div class="content__folio__img">
+         <div class="content__img">
+            <img src="imagenes/Group 46.jpg">
+         </div>
+         <div class="content__img">
+            <img src="imagenes/Group 47.jpg">
+         </div>
+         <div class="content__img">
+            <img src="imagenes/Group 48.jpg" >
+         </div>
+      </div>
+    </div>
+
+    <div class="content__contacts">
+        <div class="col-12 contact__tittle">
+            <h2>Contacto</h2>
+        </div>
+        <div class="col-12 col-md-6 contact__item">
+            <div class="contact__img left">
+                <img src="imagenes/phone 3.svg">
+            </div>
+            <span class="left">
+                Numero de telefono
+            </span>
+            <p class="left">3024570425</p>
+        </div>
+        <div class="col-12 col-md-6 contact__item">
+            <div class="contact__img right">
+                <img src="imagenes/mail 3.svg">
+            </div>
+            <span class="right">
+                Email
+            </span>
+            <p class="right">
+                luisenriquesoraca27@gmail.com
+            </p>
+        </div>
+    </div>
+
+
+
 </section>
+
+<footer class="col__12">
+    <p>Hecho con &#10084 en Academlo</p>
+</footer>
+
+<script src="javascript/script.js"></script>
 </body>
 </html>

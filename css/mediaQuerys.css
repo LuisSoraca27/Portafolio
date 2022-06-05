@@ -1,0 +1,287 @@
+/* ****************************************   NAV  ********************************** */
+
+@media(min-width: 768px) {
+    #nav li {
+        display: inline-block;
+        margin-right: .2rem;
+    }
+    nav button {
+        display: none;
+    
+    }
+
+    #nav {
+        display: block;
+        text-align: right;
+        background-color: transparent;
+        position: static;
+    }
+    
+}
+
+@media(min-width: 992px) {
+    #nav li {
+        margin-right: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media(min-width:1200px) {
+    nav a {
+        font-size: 1.2rem;
+    }
+}
+
+/* ***************************************** ENCABEZADO *********************************** */
+
+@media (min-width: 768px) {
+.container01 {
+    margin-top: 40px;
+}
+}
+
+@media (min-width: 992px) {
+    .container01__img {
+        width: 14rem;
+        height: 16rem;
+    }
+    .container01__text {
+        width: 350px;
+    }
+}
+
+@media (min-width:1200px) {
+    .text_h1 {
+        font-size: 3rem;
+        margin: 0px auto 10px;
+        width: 28rem;
+    }
+}
+
+    /* }
+***********************************************ACERCA DE MI *************************************** */
+@media (min-width: 992px) {
+    .acerca__de__mi {
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width:1200px) {
+    .acerca__de__mi {
+        margin-top: 9rem;
+        margin-bottom: 9rem;
+    }
+    
+    .acerca__de__mi h2 {
+        font-size: 2.1rem;
+    }
+   
+    .acerca__de__mi p {
+        font-size: 1.2rem;
+    }
+
+}
+    /* 
+********************************************** MIS HABILIDADES *************************************** */
+@media (min-width:768px) {
+    .left {
+        left: 60px;
+    }
+    .right {
+        right: 60px;
+    }
+}
+
+@media (min-width:992px) {
+    .left {
+        left: 110px;
+    }
+    .right {
+        right: 110px;
+    }
+}
+
+@media (min-width:1200px) {
+    .mis__habilidades h2 {
+        font-size: 2.1rem;
+    }
+    .backgroud__img {
+        height: 7.5rem;
+        width: 7.5rem;
+    }
+    .habilidades__img img {
+        height: 4.4rem;
+        width: 4.5rem;
+        top: 1.6rem;
+    }    
+    .mis__habilidades span {
+        font-size: 1.2rem;
+    }
+}
+
+/* ******************************************* EXPERIENCIA ************************************** */
+
+@media (min-width: 768px) {
+    .content__exp {
+        width: 24rem;
+        margin-bottom: 6rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .content__exp {
+        width: 39rem;
+        margin-bottom: 6rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .content__exp {
+        width: 44rem;
+    }
+ 
+    .exp__tittle {
+        font-size: 1.6rem;
+    }
+    .exp__p {
+        font-size: 1.2rem;
+        
+    }
+    .exp__p2 {
+        font-size: 1.2rem;
+    }
+}
+    /* 
+*********************************************PORTAFOLIO ******************************************** */
+
+@media(min-width:1200px) {
+    .content__folio h2 {
+        font-size: 2.3rem;
+    }
+    
+}
+/* 
+********************************************* CONTACTO ******************************************** */
+
+@media(min-width: 768px) {
+    .contact__item{
+        flex-direction: row;
+    }
+
+}   
+
+@media(min-width:1200px) {
+    .contact__tittle {
+        font-size: 1.6rem;
+    }
+    .contact__img {
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+    .content__contacts img {
+        top: 2.3rem;
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+    .content__contacts p {
+        font-size: 1.2rem;
+
+    }
+    .content__contacts span {
+        font-size: 1.2rem;
+    }
+}
+
+/* ********************************FOOTER ************************** */
+
+@media (min-width:1200px) {
+    footer p {
+        font-size: 1.2rem;
+    }
+}
+
+/* ******************************VECTORES*************************** */
+@media (min-width:380px) {
+    .vector__img {
+        top: 4rem;
+    }
+    .vector__img2 {
+        bottom: -13.5rem;
+    }
+    .vector__img3{
+        height: 22%;
+        left: 85%;
+    }
+    .vector__img4 {
+        height: 40%;
+        right: 17.5rem;
+        bottom: -5rem;
+    }
+}
+
+
+@media (min-width:576px) {
+    .vector__img {
+        top: 1.2rem;
+    }
+    .vector__img2 {
+        top: 15rem;;
+    } 
+    .vector__img3 {
+        left: 90%
+    }
+    .vector__img4 {
+        height: 35%;
+        right: 24rem;
+    
+    }
+}
+
+@media (min-width:768px) {
+    .vector__img {
+        top: -1rem;
+    }
+    .vector__img2 {
+        top: 9rem;
+    }
+    .vector__img3 {
+        height: 25%;
+        left: 91%
+    }
+    .vector__img4 {
+        height: 37%;
+        left: -15rem;
+    }
+}
+
+@media(min-width:992px) {
+    .vector__img2 {
+        top: 4rem;
+    }
+    .vector__img3 {
+        left: 93%
+    }
+    .vector__img4 {
+        height: 40%;
+    left: -15rem;
+    }
+}
+
+
+@media (min-width:1200px) {
+    .vector__img {
+        top: -3rem;
+    }
+    .vector__img2 {
+        top: 0rem;
+    }
+    .vector__img3 {
+        left: 91%
+    }
+    .vector__img4 {
+        left: -19rem;
+    }
+}
