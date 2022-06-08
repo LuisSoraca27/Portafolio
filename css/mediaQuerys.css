@@ -125,43 +125,52 @@
 /* ******************************************* EXPERIENCIA ************************************** */
 
 @media (min-width: 768px) {
-    .content__exp {
-        width: 24rem;
-        margin-bottom: 6rem;
-    }
-}
-
-@media (min-width: 992px) {
-    .content__exp {
-        width: 39rem;
-        margin-bottom: 6rem;
-    }
-}
-
-@media (min-width:1200px) {
-    .content__exp {
-        width: 44rem;
-    }
- 
-    .exp__tittle {
-        font-size: 1.6rem;
-    }
-    .exp__p {
-        font-size: 1.2rem;
+    .width-cell40 {
+        width: 214px;
         
     }
-    .exp__p2 {
+    .width-cell60 {
+        width: 321px;
+    
+    }
+}
+
+
+@media (min-width:1200px) {
+    .width-cell40 {
+        width: 288px;
+        
+    }
+    .width-cell60 {
+        width: 432px;
+    
+    }
+    .exp__tittle {
+        font-size: 1.5rem;
+    }
+    td {
         font-size: 1.2rem;
     }
 }
+   
     /* 
 *********************************************PORTAFOLIO ******************************************** */
+@media (min-width:992px) {
+    .content__folio__img {
+        flex-direction: row;
+    }
+    .content__img img {
+        width: 300px;
+    }
+}
 
 @media(min-width:1200px) {
     .content__folio h2 {
         font-size: 2.3rem;
     }
-    
+    .content__img img {
+        width: 350px;
+    }
 }
 /* 
 ********************************************* CONTACTO ******************************************** */
@@ -216,9 +225,9 @@
         left: 85%;
     }
     .vector__img4 {
-        height: 40%;
-        right: 17.5rem;
-        bottom: -5rem;
+        height: 30%;
+        right: 24.5rem;
+        bottom: 20rem;
     }
 }
 
@@ -249,11 +258,11 @@
     }
     .vector__img3 {
         height: 25%;
-        left: 91%
+        left: 91%;
     }
     .vector__img4 {
         height: 37%;
-        left: -15rem;
+        right: 42.5rem;
     }
 }
 
@@ -265,8 +274,9 @@
         left: 93%
     }
     .vector__img4 {
-        height: 40%;
-    left: -15rem;
+        height: 35%;
+        right: 57rem;
+        top: 60rem;
     }
 }
 
@@ -282,6 +292,7 @@
         left: 91%
     }
     .vector__img4 {
-        left: -19rem;
+        right: 70rem;
+        top: 90rem;
     }
 }
