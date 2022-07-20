@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,173 +10,184 @@
     <link rel="stylesheet" href="css/layout.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"> 
-    <title>Portafolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Luis Enrique Soracá Benthan</title>
 </head>
+
 <body>
     <nav>
         <button onclick="briefcaseMenu()">
             <img src="imagenes/menu 1.svg">
         </button>
-       <ul id="nav" class="nav__ul hidden">
-          <li class="nav__li"><a href="#">Home</a></li>
-          <li class="nav__li"><a href="">Acerca de mi</a></li>
-          <li class="nav__li"><a href="#">Mis habilidades</a></li>
-          <li class="nav__li"><a href="#">Experiencia</a></li>
-          <li class="nav__li"><a href="">Portafolio</a></li>
-          <li class="nav__li"><a href="#">Contacto</a></li>
+        <ul id="nav" class="nav__ul hidden">
+            <li class="nav__li"><a href="#home">Home</a></li>
+            <li class="nav__li"><a href="#acerca-de-mi">Acerca de mi</a></li>
+            <li class="nav__li"><a href="#mis-habilidades">Mis habilidades</a></li>
+            <li class="nav__li"><a href="#experiencia">Experiencia</a></li>
+            <li class="nav__li"><a href="#portafolio">Portafolio</a></li>
+            <li class="nav__li"><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
 
-<section>
-    <div class="container01">
-      <img class="container01__img" src="imagenes/Rectangle 45.png" alt="">
-      <h3 class="container01__text text_h3"> Hola, soy Luis</h3>
-      <h1 class="container01__text text_h1">Diseñador y desarrollador web</h1>
-      <img src="imagenes/Group 99.svg" class="vector__img">
-      <img src="imagenes/Group 98.svg" class="vector__img2">
-    </div>
-    
-    <div class="container__redes">
-        <img src="imagenes/cib_linkedin-in.svg" alt="" class="redes__img">
-        <img src="imagenes/ant-design_instagram-filled.svg" alt="" class="redes__img">
-        <img src="imagenes/ant-design_twitter-outlined.svg" alt="" class="redes__img">
-  
-    </div>
-     
+    <section id="home">
+        <div class="container01">
+            <img class="container01__img" src="imagenes/mi imagen.png" alt="">
+            <h3 class="container01__text text_h3"> Hola, soy Luis</h3>
+            <h1 class="container01__text text_h1">Desarrollador web full stack</h1>
+            <img src="imagenes/Group 99.svg" class="vector__img">
+            <img src="imagenes/Group 98.svg" class="vector__img2">
+        </div>
 
-    <div class="acerca__de__mi ">
-        <h2>Acerca de mi</h2>
-        <p class="">
-            Soy una persona proactiva con un gran sentido de liderazgo, siempre busco crear soluciones a los problemas en mi camino afrontando los con actitud y disciplina, siempre dispuesto a enfrentar retos. Actualmente soy estudiante del programa Developer web full stack con conocimiento en Html, Css, JavaScript, git y GitHub. Sigo trabajando día a día para llenarme de conocimiento y alcanzar mi objetivo de convertirme en un gran programador.
-        </p>
- 
-    </div>
+        <div class="container__redes">
+            <a href="https://www.linkedin.com/in/luis-enrique-sorac%C3%A1-benthan-09a999241/" target="_blank"> <img
+                    src="imagenes/cib_linkedin-in.svg" alt="" class="redes__img"></a>
+            <a href="https://www.instagram.com/luis_soraca/" target="_blank"><img
+                    src="imagenes/ant-design_instagram-filled.svg" alt="" class="redes__img"></a>
+            <img src="imagenes/ant-design_twitter-outlined.svg" alt="" class="redes__img">
 
-    <div class="mis__habilidades">
-        <img src="imagenes/Group 97.svg" class="vector__img3">
-        <div class="col-12 habilidades__h2">
-            <h2>Mis habilidades</h2>
         </div>
-        <div class="col-6 habilidades__img">
-            <div class="backgroud__img left">
-                <img src="imagenes/ant-design_mobile-filled.svg">
-            </div>
-            <span class="left">Mobile app Design</span>
-        </div>
-        <div class="col-6 habilidades__img">
-            <div class="backgroud__img right">
-                 <img src="imagenes/mdi_motion.svg"> 
-            </div>
-            <span class="right">Motion Design</span>
-        </div>
-        <div class="col-6 habilidades__img">
-            <div class="backgroud__img left">
-                <img src="imagenes/mdi_material-design.svg">
-            </div>
-            <span class="left">Creacíon de sistemas de diseño</span>
-        </div>
-        <div class="col-6 habilidades__img">
-             <div class="backgroud__img right">
-                <img src="imagenes/ic_outline-web-asset.svg">
-             </div>
-            <span class="right">Desarrollo web</span> 
-        </div>
-    </div>
 
 
-    <div class="content__exp">
-        <div class="col-12 exp__tittle">
-            <h2>Experiencia</h2>
-        </div>
-    </div>
-  
-     <div class="container-exp">
-    <table > 
-          <tr>
-             <td class="width-cell40 color-cell">2016-2018</td>
-             <td class="bold width-cell60">visual desiner</td>
-         </tr>
-          <tr class="bor">
-             <td class="bor width-cell40"></td>
-             <td class="bor width-cell60 color-cell place">Wizeline</td>
-          </tr>
-      
-          <tr>
-             <td class="width-cell40 color-cell"> 2018-2019</td>
-             <td class="bold width-cell60">Product desiner</td>
-          </tr>
-          <tr class="bor">
-             <td class="bor width-cell40"></td>
-             <td class="bor width-cell60 color-cell place">Microsoft</td>
-          </tr>
-        
-          <tr>
-             <td class="width-cell40 color-cell">2019-2021</td>
-             <td class="bold width-cell60">UI Enginner</td>
-          </tr>
-          <tr>
-             <td class="width-cell40 "></td>
-            <td class="width-cell60 color-cell place">Google</td>
-         </tr>
-        
-  </table>
-  <div class="img__4">
-    <img src="imagenes/Group 97.svg" class="vector__img4">
-</div>
-</div>
-
-    <div class="content__folio">
-        <div class="col__12">
-            <h2>Portafolio</h2>
-        </div>
-      <div class="content__folio__img">
-         <div class="content__img col-12 col-lg-4">
-            <img src="imagenes/Group 47.jpg">
-         </div>
-         <div class="content__img col-12 col-lg-4">
-            <img src="imagenes/image 11.jpg">
-         </div>
-         <div class="content__img col-12 col-lg-4">
-            <img src="imagenes/Rectangle 65.jpg" >
-         </div>
-      </div>
-    </div>
-
-    <div class="content__contacts">
-        <div class="col-12 contact__tittle">
-            <h2>Contacto</h2>
-        </div>
-        <div class="col-12 col-md-6 contact__item">
-            <div class="contact__img left">
-                <img src="imagenes/phone 3.svg">
-            </div>
-            <span class="left">
-                Numero de telefono
-            </span>
-            <p class="left">3024570425</p>
-        </div>
-        <div class="col-12 col-md-6 contact__item">
-            <div class="contact__img right">
-                <img src="imagenes/mail 3.svg">
-            </div>
-            <span class="right">
-                Email
-            </span>
-            <p class="right">
-                luisenriquesoraca27@gmail.com
+        <div class="acerca__de__mi " id="acerca-de-mi">
+            <h2>Acerca de mi</h2>
+            <p class="">
+                Soy una persona proactiva con un gran sentido de liderazgo, siempre busco crear soluciones a los
+                problemas en mi camino afrontando los con actitud y disciplina, siempre dispuesto a enfrentar retos.
+                Actualmente soy estudiante del programa Developer web full stack con conocimiento en Html, Css,
+                JavaScript, git y GitHub. Sigo trabajando día a día para llenarme de conocimiento y alcanzar mi objetivo
+                de convertirme en un gran programador.
             </p>
+
         </div>
-    </div>
+
+        <div class="mis__habilidades">
+            <img src="imagenes/Group 97.svg" class="vector__img3">
+            <div class="col-12 habilidades__h2">
+                <h2 id="mis-habilidades">Mis habilidades</h2>
+            </div>
+            <div class="col-6 habilidades__img">
+                <div class="backgroud__img left">
+                    <img class="img_p_html" src="imagenes/html5-without-wordmark-color.svg">
+                </div>
+                <span class="left">HTML</span>
+            </div>
+            <div class="col-6 habilidades__img">
+                <div class="backgroud__img right">
+                    <img class="img_p_css" src="imagenes/css-3-seeklogo.com.svg">
+                </div>
+                <span class="right">CSS</span>
+            </div>
+            <div class="col-6 habilidades__img">
+                <div class="backgroud__img left">
+                    <img class="img_p_js" src="imagenes/javascript-js-seeklogo.com.svg">
+                </div>
+                <span class="left">JavaScript</span>
+            </div>
+            <div class="col-6 habilidades__img">
+                <div class="backgroud__img right">
+                    <!-- <img class="img_p_web" src="imagenes/ic_outline-web-asset.svg"> -->
+                    <i class="fa-brands fa-react"></i>
+                </div>
+                <span class="right">React</span>
+            </div>
+        </div>
+
+
+        <div class="content__exp">
+            <div class="col-12 exp__tittle">
+                <h2 id="experiencia">Experiencia</h2>
+            </div>
+        </div>
+
+        <div class="container-exp">
+            <table>
+                <tr>
+                    <td class="width-cell40 color-cell">2022-2022</td>
+                    <td class="bold width-cell60">Wheather App</td>
+                </tr>
+                <tr class="bor">
+                    <td class="bor width-cell40"></td>
+                    <td class="bor width-cell60 color-cell place">Academlo</td>
+                </tr>
+
+                <tr>
+                    <td class="width-cell40 color-cell"> 2022-2022</td>
+                    <td class="bold width-cell60">E-commerce</td>
+                </tr>
+                <tr class="bor">
+                    <td class="bor width-cell40"></td>
+                    <td class="bor width-cell60 color-cell place">Academlo</td>
+                </tr>
+
+                <tr>
+                    <td class="width-cell40 color-cell">2022-2022</td>
+                    <td class="bold width-cell60">Rick And Morty App</td>
+                </tr>
+                <tr>
+                    <td class="width-cell40 "></td>
+                    <td class="width-cell60 color-cell place">Academlo</td>
+                </tr>
+
+            </table>
+            <div class="img__4">
+                <img src="imagenes/Group 97.svg" class="vector__img4">
+            </div>
+        </div>
+
+        <div class="content__folio">
+            <div class="col__12">
+                <h2 id="portafolio">Portafolio</h2>
+            </div>
+            <div class="content__folio__img">
+                <div class="content__img col-12 col-lg-4">
+                    <a href="https://benevolent-cannoli-403d23.netlify.app/" target="_blank"><img src="imagenes/Captura de pantalla 2022-06-14 - 21.27.20.png"></a>
+                </div>
+                <div class="content__img col-12 col-lg-4">
+                   <a href="https://lucky-croquembouche-7a69e0.netlify.app/" target="_blank"> <img src="imagenes/RickandMorty.jpg"></a>
+                </div>
+                <div class="content__img col-12 col-lg-4">
+                    <a href="https://shimmering-unicorn-d0a406.netlify.app/" target="_blank"><img
+                            src="imagenes/w.jpg"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content__contacts">
+            <div class="col-12 contact__tittle">
+                <h2 id="contacto">Contacto</h2>
+            </div>
+            <div class="col-12 col-md-6 contact__item">
+                <div class="contact__img left">
+                    <img src="imagenes/phone 3.svg">
+                </div>
+                <span class="left">
+                    Numero de telefono
+                </span>
+                <p class="left">3024570425</p>
+            </div>
+            <div class="col-12 col-md-6 contact__item">
+                <div class="contact__img right">
+                    <img src="imagenes/mail 3.svg">
+                </div>
+                <span class="right">
+                    Email
+                </span>
+                <p class="right">
+                    luisenriquesoraca27@gmail.com
+                </p>
+            </div>
+        </div>
 
 
 
-</section>
+    </section>
 
-<footer class="col__12">
-    <p>Hecho con &#10084 en Academlo</p>
-</footer>
+    <footer class="col__12">
+        <p>Hecho con &#10084 en Academlo</p>
+    </footer>
 
-<script src="javascript/script.js"></script>
+    <script src="javascript/script.js"></script>
 </body>
+
 </html>

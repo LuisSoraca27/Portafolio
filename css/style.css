@@ -5,7 +5,6 @@ html {
     box-sizing: inherit;
   }
 
-
 body {
     background-color: #020403;
     position: relative;
@@ -19,17 +18,18 @@ body {
 
 nav {
     text-align: right;
-    padding: 1rem 3rem;
-    background-color:transparent;
-    position: relative;
-    margin-bottom: 1rem;
+    padding-top: .5rem;
+    background-color:#020403;
+    top: 0;
+    margin-bottom: 3.5rem;
+    z-index: 1000;
 }
 
 .nav__ul {
     text-align: center;
     list-style: none;
     position: absolute;
-    background-color: #020403;
+    background-color:#020403;
     margin: 0;
     left: 0;
     right: 0;
@@ -37,13 +37,18 @@ nav {
 }
 
 nav li {
-    padding: .5rem;
+    padding: .4rem;
 }
 
 nav a {
     text-decoration: none;
-    color: #adadad;
+    color: #ffffff;
     font-size: 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #adadad;
 }
 
 .hidden {
@@ -81,9 +86,9 @@ nav > button{
 }
 
 .text_h3 {
-    margin: 30px auto 0px;
+    margin: 5px auto 0px;
     font-size: 1.563rem;
-    color: #adadad;
+    color: white;
     text-align: center;
 }
 
@@ -111,7 +116,7 @@ nav > button{
 
  .container__redes {
      text-align: center;
-     margin-bottom: 6.25rem;
+     margin-bottom: 12.25rem;
      
  }
 
@@ -127,6 +132,7 @@ nav > button{
      margin-left: auto;
      margin-right: auto;
      position: relative;
+     font-weight: bold;
  }
 
  .acerca__de__mi h2 {
@@ -166,12 +172,30 @@ nav > button{
 
 
  }
+.img_p_js {
+    width: 2.7rem;
+    height: 2.7rem;
+    top: 1.4rem;
+}
+.img_p_css {
+    width: 2.8rem;
+    height: 2.8rem;
+    top: 1.4rem;
+}
+.img_p_html {
+    width: 3rem;
+    height: 3rem;
+    top: 1.4rem;
+}
+.img_p_web {
+    width: 3.6rem;
+    height: 3.6rem;
+    top: 1rem;
+}
 
  .habilidades__img img {
-     height: 3.6rem;
-     width: 3.6rem;
      position: relative;
-     top: 1rem;
+   
  }
   .backgroud__img {
     height: 5.5rem;
@@ -187,6 +211,12 @@ nav > button{
      display: block;
      position: relative;
  }
+
+i {
+    font-size: 49px;
+    position: relative;
+    top: 22px;
+}
 
  .vector__img3 {
      position: absolute;
@@ -262,6 +292,7 @@ table, tr, td {
 
 .content__img img {
     width: 350px;
+    height: 260px   ;
 }
 
 .content__img {

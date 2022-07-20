@@ -93,6 +93,11 @@
     .right {
         right: 60px;
     }
+
+    i {
+        font-size: 50px;
+        bottom: 35px;
+    }
 }
 
 @media (min-width:992px) {
@@ -102,6 +107,8 @@
     .right {
         right: 110px;
     }
+
+
 }
 
 @media (min-width:1200px) {
@@ -112,13 +119,33 @@
         height: 7.5rem;
         width: 7.5rem;
     }
-    .habilidades__img img {
+    .img_p_html {
+        height: 4rem;
+        width: 4rem;
+        top: 2rem;
+    }   
+    .img_p_css {
+        height: 3.7rem;
+        width: 3.7rem;
+        top: 2.1rem;
+    }
+    .img_p_js {
+        height: 3.5rem;
+        width: 3.5rem;
+        top: 2rem;
+    }
+    .img_p_web {
         height: 4.4rem;
         width: 4.5rem;
         top: 1.6rem;
-    }    
+    }
     .mis__habilidades span {
         font-size: 1.2rem;
+    }
+
+    i {
+        font-size: 65px;
+        top: 28px;
     }
 }
 
